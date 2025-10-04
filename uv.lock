@@ -594,7 +594,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.9.4" },
     { name = "nltk", specifier = ">=3.9.1" },
     { name = "numpy", specifier = ">=2.0.2" },
-    { name = "pami", specifier = ">=2025.7.3.1" },
+    { name = "pami", git = "https://github.com/UdayLab/PAMI.git" },
     { name = "pandas", specifier = ">=2.3.2" },
     { name = "plotly", specifier = ">=6.3.0" },
     { name = "scikit-learn", specifier = ">=1.6.1" },
@@ -1741,7 +1741,7 @@ wheels = [
 [[package]]
 name = "pami"
 version = "2025.7.3.1"
-source = { registry = "https://pypi.org/simple" }
+source = { git = "https://github.com/UdayLab/PAMI.git#2e868570b1349645db234cd62a1f0c8cc1db9a12" }
 dependencies = [
     { name = "deprecated" },
     { name = "discord-py" },
@@ -1758,10 +1758,6 @@ dependencies = [
     { name = "sphinx-rtd-theme" },
     { name = "urllib3" },
     { name = "validators" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/93/7c/aed8ddb5871ef204da6d0187be4d0a3e003327d8903bc336c901ff9645d3/pami-2025.7.3.1.tar.gz", hash = "sha256:ccb639b65ed15542e15f1f9962fd4bd354375ff38f25ed24ad7a7d71b8a40b51", size = 678039, upload-time = "2025-07-03T01:27:40.83Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b4/4a/3d372d95171ee273f3b841ff5018fa6a9fc31156ba884600a52e414cb97c/pami-2025.7.3.1-py3-none-any.whl", hash = "sha256:cff4defb62d4d90d707d025b155c592abe5764a8bc0e152c525e16242d7385c1", size = 1206017, upload-time = "2025-07-03T01:27:37.439Z" },
 ]
 
 [[package]]

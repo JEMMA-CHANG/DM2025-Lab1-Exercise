@@ -16,3 +16,6 @@ dependencies = [
     "seaborn>=0.13.2",
     "umap-learn>=0.5.9.post2",
 ]
+
+[tool.uv.sources]
+pami = { git = "https://github.com/UdayLab/PAMI.git" }
